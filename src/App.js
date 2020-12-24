@@ -1,6 +1,7 @@
 import Navigation from "./components/Navigation";
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import SlideShow from "./components/SlideShow";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
               {/* <CookieConsent buttonText='OK'>This website uses cookies to enhance user experience.</CookieConsent> */}
                   <div className="main-nav">
                       <Navigation />
+
                       {/* <Button /> */}
                   </div>
                   <div className='main-nav-right'>
