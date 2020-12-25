@@ -1,60 +1,44 @@
 import React from 'react';
+import ImageGallery from 'react-image-gallery';
 
-import { Slide } from 'react-slideshow-image';
-import img0 from '../assets/mer1.jpg'
-import img1 from '../assets/mer2.jpg'
+
+
+import img0 from '../assets/fb_zdj_w_tle_1.jpg'
+import img1 from '../assets/fb_zdj_w_tle_1.jpg'
 import img2 from '../assets/mer3.jpg'
-import img3 from '../assets/mer4.jpg'
+import img3 from '../assets/1605123683818_filtered.JPG'
 
 
-// const slideImages = [img0, img1, img2];
 
-const slide3 = () => (
-    <div className='slide3TXT'>H-D motor set - 12 prints<br/>click <a className='slideLink' href='https://billycune.com/shop/product-category/motor-sets/'>here</a> to see more</div>
-)
-
-const slideImages = [
+const images = [
     {
-        img: img0,
-        desc: 'welcome on the road'
+        original: img0,
     },
     {
-        img: img3,
-        desc: slide3()
+        original: img1,
     },
     {
-        img: img1,
-        desc: null
+        original: img2,
     },
     {
-        img: img2,
-        desc: null
-    }
-]
+        original: img3,
+    },
+  
+];
+
 
 const properties = {
-    duration: 10000,
-    transitionDuration: 500,
-    infinite: true,
-    indicators: true,
-    arrows: true
+    autoPlay: true,
+    showThumbnails: false,
 };
-
-export default class SlideShow extends React.Component {
+export default class GallerySlide extends React.Component {
     render() {
         return(
-            <div className="home-slide-show-container" id="slide-show">
-                <div className="slide-container">
-                    <Slide {...properties}>
-                        {
-                            slideImages.map((img,index) =>
-                                <div className='each-slide' key={index}>
-                                    <div style={{'backgroundImage': `url(${img.img})`}}>{img.desc===null?'':<span>{img.desc}</span>}</div>
-                                </div>
-                            )
-                        }
-                    </Slide>
+            <div className="main-gallery-container" >
+                <div className="main-gallery-desktop">
+                    <ImageGallery {...properties} items={images} />
                 </div>
+              
             </div>
         )
     }

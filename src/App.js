@@ -30,6 +30,7 @@ function App() {
                       </div>
                   </div>
               </header>
+              <SlideShow/>
 
               {/* <Switch>
                   <Route exact path="/" component={Home} />
