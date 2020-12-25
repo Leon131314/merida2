@@ -2,10 +2,12 @@ import Navigation from "./components/Navigation";
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import SlideShow from "./components/SlideShow";
+import About from './components/About';
 
 function App() {
   return (
-      <div>
+      <div className="home">
+          <div className="filterMain">
           <Router>
 
               <header className="page-header">
@@ -31,6 +33,7 @@ function App() {
                   </div>
               </header>
               <SlideShow/>
+                <About/>
 
               {/* <Switch>
                   <Route exact path="/" component={Home} />
@@ -41,6 +44,7 @@ function App() {
               </Switch> */}
               {/* <Footer /> */}
           </Router>
+          </div>
       </div>
   );
 }

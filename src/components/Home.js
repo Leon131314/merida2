@@ -12,7 +12,7 @@ import SimpleReactLightbox from "simple-react-lightbox";
 export default class Home extends React.Component {
     render() {
         return(
-            <div>
+            <div className="home">
                 <HomeNavigation/>
                 <SlideShow/>
                 <SimpleReactLightbox>

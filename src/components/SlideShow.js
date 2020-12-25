@@ -3,17 +3,14 @@ import ImageGallery from 'react-image-gallery';
 
 
 
-import img0 from '../assets/fb_zdj_w_tle_1.jpg'
 import img1 from '../assets/fb_zdj_w_tle_1.jpg'
-import img2 from '../assets/mer3.jpg'
-import img3 from '../assets/1605123683818_filtered.JPG'
+import img2 from '../assets/mockup_digipack_wnętrze.jpg'
+import img3 from '../assets/mockup_digipack_okładka.jpg'
 
 
 
 const images = [
-    {
-        original: img0,
-    },
+  
     {
         original: img1,
     },
