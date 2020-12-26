@@ -19,6 +19,7 @@ export default class Navigation extends React.Component {
                     <li><NavLink activeStyle={activeStyle} to="/portfolio">Muzyka</NavLink></li>
                     <li><NavLink activeStyle={activeStyle} to="/makingof">Taniec</NavLink></li>
                     <li><NavLink activeStyle={activeStyle} to="/shop">Sklep</NavLink></li>
+                    <li><NavLink activeStyle={activeStyle} to="/shop">Kontakt</NavLink></li>
                 </ul>
             </>
         )
