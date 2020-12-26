@@ -4,25 +4,24 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import SlideShow from "./components/SlideShow";
 import About from './components/About';
 import VideoHome from './components/VideoHome';
+import Home from './components/Home';
 
 function App() {
   return (
       <div>
-
-<div className="filterMain"> </div>
-      <div className="home">
+          
        
           <Router>
-
+        
               <header className="page-header">
               {/* <CookieConsent buttonText='OK'>This website uses cookies to enhance user experience.</CookieConsent> */}
                   <div className="main-nav">
-                      <Navigation />
+                      <Navigation /> 
 
-                      {/* <Button /> */}
+                     
                   </div>
                   <div className='main-nav-right'>
-                      {/* <img className='header-signature' src={signature} alt='signature' /> */}
+ 
                       <div className="main-nav-social-wrapper">
                       <a href="https://www.facebook.com/BillyCune/" target='_blank' rel="noopener noreferrer">
                           <div className="facebook" />
@@ -38,29 +37,27 @@ function App() {
 
                
               </header>
-                <div className="titleHome">
-                    <h1>Merida</h1>
-                    <h2>Marta Jakubowska</h2>
-                </div>
+               
+              
 
 
-              {/* <SlideShow/> */}
+          
             
-                <About/>
+                
 
-              {/* <Switch>
+              <Switch>
                   <Route exact path="/" component={Home} />
-                  <Route path="/portfolio" component={Portfolio} />
+                  {/* <Route path="/portfolio" component={Portfolio} />
                   <Route path="/makingof" component={MakingOf} />
                   <Route path="/history" component={HistoryHD} />
-                  <Route component={NotFound} />
-              </Switch> */}
-              {/* <Footer /> */}
+                  <Route component={NotFound} />  */}
+              </Switch>
+              {/* <Footer />  */}
 
-              <VideoHome/>  
+             
           </Router>
          
-      </div>
+    
       </div>
   );
 }

@@ -1,28 +1,27 @@
+
 import React from 'react';
 import { Link } from "react-scroll";
+import Navigation from './Navigation'
+import About from './About'
 
-import About from "./HomeComponents/About";
-import Contact from "./HomeComponents/Contact";
-import Gallery from "./HomeComponents/Gallery";
-import SlideShow from "./HomeComponents/SlideShow";
-import {ParallaxProvider} from 'react-scroll-parallax';
-
-import SimpleReactLightbox from "simple-react-lightbox";
 
 export default class Home extends React.Component {
     render() {
         return(
-            <div className="home">
-                <HomeNavigation/>
-                <SlideShow/>
-                <SimpleReactLightbox>
-                    <Gallery/>
-                </SimpleReactLightbox>
-                <ParallaxProvider>
+
+            <div>
+                <div className="filterMain"> </div>
+                <div className="home">
+                    <HomeNavigation/>
+                    <div className="titleHome">
+                        <h1>Merida</h1>
+                        <h2>Marta Jakubowska</h2>
+                    </div>
                     <About/>
-                </ParallaxProvider>                
-                <Contact/>
+                
+                </div>
             </div>
+           
         )
     }
 }
