@@ -7,7 +7,8 @@ export default class About extends React.Component {
                 <div className="about-1">
                     <div className="img-1">
                         </div>
-                    <p>Marta Jakubowska (Merida Jacobs) to 25-letnia artystka, pochodząca z Olsztyna. Muzyka towarzyszyła jej od najmłodszych lat poprzez śpiew, taniec, akrobatykę oraz naukę gry na skrzypcach. W 2011 roku wzięła udział w programie „Bitwa na Głosy” pod przewodnictwem Tomsona i Barona. Od wielu lat szkoli się na warsztatach u najlepszych światowych choreografów w Polsce i za granicą (m.in. Los Angeles, Nowy Jork, Londyn, Paryż).
+                    <p>Marta Jakubowska (Merida Jacobs) to 25-letnia artystka, pochodząca z Olsztyna. Muzyka towarzyszyła jej od najmłodszych lat poprzez śpiew, taniec, akrobatykę oraz naukę gry na skrzypcach.
+                         W 2011 roku wzięła udział w programie „Bitwa na Głosy” pod przewodnictwem Tomsona i Barona. Od wielu lat szkoli się na warsztatach u najlepszych światowych choreografów w Polsce i za granicą (m.in. Los Angeles, Nowy Jork, Londyn, Paryż).
 
 Od 7 lat mieszka w Warszawie gdzie rozwija swoje pasje i dzieli się swoim doświadczeniem z innymi. </p>
                 </div>

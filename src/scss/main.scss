@@ -19,16 +19,12 @@
     }
 
     .home {
-         background-color: #071021;
-         background-image: url('../assets/mer3.jpg');
-        //  background-blend-mode: screen;
-         background-repeat: no-repeat;
-         background-attachment: fixed;
-         background-position: center;
-         background-size: cover;
-        height: 10000px;
+        // z-index: 9999;
         display: flex;
         flex-direction: column;
+        z-index: 9999;
+        // background-color: #071021;
+        background: linear-gradient(to bottom,  #177f68, #071021);
     }
 
     .titleHome {
@@ -54,7 +50,30 @@
     }
 
 
-      
+    .filterMain {
+        background-color: #071021;
+        background-image: url('../assets/mer3.jpg');
+//          filter: blur(8px);
+//   -webkit-filter: blur(8px);
+       //  background-blend-mode: screen;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        z-index: 0;
+        // width: 1200px;
+  height: 800px;
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+        opacity: 0.3;
+  position: fixed;
+  left: 0;
+  right: 0;
+        
+    }
       
 
    
