@@ -1,8 +1,11 @@
 
 .About-Main {
     // width: 100%;
-    height: 100vh;
+    height: 200vh;
     margin-top: 100vh;
+    z-index: 9998;
+    padding-left: 30px;
+    padding-right: 10px;
 
 
     .about-1 {
@@ -10,14 +13,18 @@
         justify-content: space-around;
         align-items: center;
         flex-direction: row;
+        margin: 20px;
+        margin-bottom: 60px;
+        
 
         .img-1 {
             background-image: url('../assets/Marta Jakubowska_Agencja MERITO .JPG');
             background-size: cover;
             background-position: center;        
-            width: 400px;
+            width: 450px;
             height: 500px;
-        }
+            opacity: 0.8;
+            box-shadow: inset 0 0 1em black, 0 0 1em black;        }
     }
 
     .about-2 {
@@ -30,16 +37,27 @@
         background-image: url('../assets/mer1.jpg');
         background-size: cover;
         background-position: center;        
-        width: 400px;
+        width: 450px;
         height: 500px;
+        opacity: 0.8;
+        box-shadow: inset 0 0 1em black, 0 0 1em black;   
     }
     }
 
     p {
         color: white;
-        font-size: 20px;
-        width: 400px;
-        text-align: center;
+        opacity: 0.9;
+        font-size: 28px;
+        width: 450px;
+        height: 500px;
+        text-align: left;
+        text-shadow: 6px 6px 6px black;
+        // background: linear-gradient(to bottom,  #177f68, #071021);
+    }
+
+    p:nth-child(1) {
+       text-align: right;
+       font-size: 26px;
     }
 
    

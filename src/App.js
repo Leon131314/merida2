@@ -7,8 +7,11 @@ import VideoHome from './components/VideoHome';
 
 function App() {
   return (
+      <div>
+
+<div className="filterMain"> </div>
       <div className="home">
-          <div className="filterMain">
+       
           <Router>
 
               <header className="page-header">
@@ -56,7 +59,8 @@ function App() {
 
               <VideoHome/>  
           </Router>
-          </div>
+         
+      </div>
       </div>
   );
 }
