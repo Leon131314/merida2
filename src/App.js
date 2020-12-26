@@ -2,10 +2,13 @@ import Navigation from "./components/Navigation";
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import SlideShow from "./components/SlideShow";
+import About from './components/About';
+import VideoHome from './components/VideoHome';
 
 function App() {
   return (
-      <div>
+      <div className="home">
+          <div className="filterMain">
           <Router>
 
               <header className="page-header">
@@ -29,7 +32,18 @@ function App() {
                       </a>
                       </div>
                   </div>
+
+               
               </header>
+                <div className="titleHome">
+                    <h1>Merida</h1>
+                    <h2>Marta Jakubowska</h2>
+                </div>
+
+
+              {/* <SlideShow/> */}
+            
+                <About/>
 
               {/* <Switch>
                   <Route exact path="/" component={Home} />
@@ -39,7 +53,10 @@ function App() {
                   <Route component={NotFound} />
               </Switch> */}
               {/* <Footer /> */}
+
+              <VideoHome/>  
           </Router>
+          </div>
       </div>
   );
 }
