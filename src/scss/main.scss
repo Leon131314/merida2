@@ -31,4 +31,30 @@
         flex-direction: column;
     }
 
+    .titleHome {
+        background-image: url('../assets/fb_zdj_w_tle_1.jpg');  
+        width: 100%;
+        height: 800px;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        top:0;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        // color: darken( #fff, 10%);
+        color: #fff;
+        h1, h2 {
+            opacity: 0.9;
+        }
+    }
+
+
+      
+      
+
    

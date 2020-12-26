@@ -3,6 +3,7 @@ import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import SlideShow from "./components/SlideShow";
 import About from './components/About';
+import VideoHome from './components/VideoHome';
 
 function App() {
   return (
@@ -31,8 +32,17 @@ function App() {
                       </a>
                       </div>
                   </div>
+
+               
               </header>
-              <SlideShow/>
+                <div className="titleHome">
+                    <h1>Merida</h1>
+                    <h2>Marta Jakubowska</h2>
+                </div>
+
+
+              {/* <SlideShow/> */}
+            
                 <About/>
 
               {/* <Switch>
@@ -43,6 +53,8 @@ function App() {
                   <Route component={NotFound} />
               </Switch> */}
               {/* <Footer /> */}
+
+              <VideoHome/>  
           </Router>
           </div>
       </div>
