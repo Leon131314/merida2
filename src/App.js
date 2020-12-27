@@ -16,6 +16,7 @@ function App() {
         
               <header className="page-header">
               {/* <CookieConsent buttonText='OK'>This website uses cookies to enhance user experience.</CookieConsent> */}
+              {/* <div className="logo"></div> */}
                   <div className="main-nav">
                       <Navigation /> 
 
@@ -53,7 +54,6 @@ function App() {
                   <Route path="/history" component={HistoryHD} />
                   <Route component={NotFound} />  */}
               </Switch>
-              {/* <Footer />  */}
 
              
           </Router>
