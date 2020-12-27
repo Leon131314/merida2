@@ -2,7 +2,8 @@
 import React from 'react';
 import { Link } from "react-scroll";
 import Navigation from './Navigation'
-import About from './About'
+import About from './About';
+import Video from "../assets/spot_promujący_album.mp4";
 
 
 export default class Home extends React.Component {
@@ -17,6 +18,8 @@ export default class Home extends React.Component {
                         <h1>Merida</h1>
                         <h2>Marta Jakubowska</h2>
                     </div>
+                    <video controls autostart autoPlay src={Video} type="video/mp4" />
+                    
                     <About/>
                 
                 </div>

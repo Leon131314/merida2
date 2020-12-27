@@ -6,6 +6,7 @@
 
     @import "./navigationWithButton";
     @import "./about";
+    @import "./footer";
     // @import "./productSample";
 
     @import "~react-image-gallery/styles/scss/image-gallery.scss";
@@ -73,6 +74,12 @@
   left: 0;
   right: 0;
         
+    }
+
+    video {
+        height: 900px;
+        width: 100%;
+        margin-top: 600px;
     }
       
 
