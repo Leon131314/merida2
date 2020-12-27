@@ -2,9 +2,12 @@ import Navigation from "./components/Navigation";
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import SlideShow from "./components/SlideShow";
-import About from './components/About';
 import VideoHome from './components/VideoHome';
 import Home from './components/Home';
+import Music from './components/Music';
+import Dance from './components/Dance';
+import Shop from './components/Shop';
+import Contact from './components/Contact';
 import Footer from "./components/Footer";
 
 function App() {
@@ -39,20 +42,14 @@ function App() {
 
                
               </header>
-               
-              
-
-
-          
-            
-                
-
+              <div className="filterMain"> </div>    
               <Switch>
                   <Route exact path="/" component={Home} />
-                  {/* <Route path="/portfolio" component={Portfolio} />
-                  <Route path="/makingof" component={MakingOf} />
-                  <Route path="/history" component={HistoryHD} />
-                  <Route component={NotFound} />  */}
+                  <Route path="/music" component={Music} />
+                  <Route path="/dance" component={Dance} />
+                  <Route path="/shop" component={Shop} />
+                  <Route path="/contact" component={Contact} />
+                  {/* <Route component={NotFound} />  */}
               </Switch>
 
              

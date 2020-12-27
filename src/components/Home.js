@@ -11,7 +11,7 @@ export default class Home extends React.Component {
         return(
 
             <div>
-                <div className="filterMain"> </div>
+                {/* <div className="filterMain"> </div> */}
                 <div className="home">
                     <HomeNavigation/>
                     <div className="titleHome">
