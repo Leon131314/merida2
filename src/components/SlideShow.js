@@ -3,7 +3,7 @@ import ImageGallery from 'react-image-gallery';
 
 
 
-import img1 from '../assets/fb_zdj_w_tle_1.jpg'
+import img1 from '../assets/instagram_okładka.jpg'
 import img2 from '../assets/mockup_digipack_wnętrze.jpg'
 import img3 from '../assets/mockup_digipack_okładka.jpg'
 
