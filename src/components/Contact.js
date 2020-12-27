@@ -5,7 +5,13 @@ export default class Contact extends React.Component {
     render() {
         return(
             <div className="Contact">
-                    aaaaaaaaaaaaaaaaaaaa
+                    <div className="contact-left">
+
+                    </div>
+                    
+                    <div className="contact-right">
+
+                    </div>
             </div>
         )
     }
