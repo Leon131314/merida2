@@ -1,0 +1,35 @@
+
+.footerBox {
+    height: 15vh;
+    background: linear-gradient(to bottom,   #071021, #177f68);
+    
+    color: white;
+    font-style: "Roboto Mono",monospace;
+
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    a {
+        color: white;
+        font-style: "Roboto Mono",monospace;
+        text-decoration: none;
+        font-size: 20px;
+    }
+}
+
+
+
+
+
+@media (max-width: 650px){
+
+.footerBox {
+
+    height: 10vh;
+
+}
+
+
+}

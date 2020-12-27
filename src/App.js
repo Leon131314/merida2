@@ -5,6 +5,7 @@ import SlideShow from "./components/SlideShow";
 import About from './components/About';
 import VideoHome from './components/VideoHome';
 import Home from './components/Home';
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -57,6 +58,7 @@ function App() {
              
           </Router>
          
+         <Footer/>
     
       </div>
   );
