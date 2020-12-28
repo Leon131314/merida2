@@ -42,7 +42,7 @@ function App() {
 
                
               </header>
-              <div className="filterMain"> </div>    
+              
               <Switch>
                   <Route exact path="/" component={Home} />
                   <Route path="/music" component={Music} />
