@@ -4,8 +4,9 @@ export default class About extends React.Component {
     render() {
         return(
             <div>
-           
+                
             <div className="About-Main">
+                
                 <div className="about-1">
                     <div className="img-1">
                         </div>
