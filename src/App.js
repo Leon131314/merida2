@@ -28,14 +28,15 @@ function App() {
                   <div className='main-nav-right'>
  
                       <div className="main-nav-social-wrapper">
-                      <a href="https://www.facebook.com/BillyCune/" target='_blank' rel="noopener noreferrer">
-                          <div className="facebook" />
-                      </a>
-                      <a href="https://www.instagram.com/billycuneart/" target='_blank' rel="noopener noreferrer">
+                      <a href="https://www.instagram.com/meridajacobs/?hl=pl" target='_blank' rel="noopener noreferrer">
                           <div className="instagram" />
                       </a>
-                      <a href="https://www.deviantart.com/cune" target='_blank' rel="noopener noreferrer">
-                          <div className="deviantart"/>
+                      <a href="https://www.facebook.com/Merida-Jacobs-101933648232815" target='_blank' rel="noopener noreferrer">
+                          <div className="facebook" />
+                      </a>
+                     
+                      <a href="https://soundcloud.com/tolekbeatz/merida-jacobs-tolekbeatz?ref=clipboard&p=i&c=0" target='_blank' rel="noopener noreferrer">
+                          <div className="soundcloud"/>
                       </a>
                       </div>
                   </div>
