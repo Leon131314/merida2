@@ -15,10 +15,16 @@ export default class Home extends React.Component {
                 <div className="filterMain"> </div>   
                 <div className="home">
                     <HomeNavigation/>
+                   
+
                     <div className="titleHome">
+                    <div className="glow">
                         <h1>Merida</h1>
+                        </div>
                         <h2>Marta Jakubowska</h2>
                     </div>
+                    
+
 
                     <video controls autostart autoPlay src={Video} type="video/mp4" />
                     
