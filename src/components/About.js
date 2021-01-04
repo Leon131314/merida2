@@ -28,33 +28,34 @@ Pasja zainspirowała ją do dalekich podróży po świecie i w głąb siebie. W 
                 </div>
                 <div className="about-open">
                     <div className="open-gallery">
-                        <div className="open-box1">
+                        {/* <div className="open-box1">
                             <div className="open-1"></div>
                             <div className="open-2"></div>
-                        </div> 
+                        </div>  */}
+                        <div className="open-4"></div>
                         <div className="open-3"></div>
-
+                        
                     </div>
-                    <p>oTWÓRZ SIĘ- to grupa zamknięta prowadzona przez Martę Jakubowską, przeznaczona dla tancerzy 16+, z minimalnie 2-letnim doświadczeniem. 
+                    <p>OTWÓRZ SIĘ- to grupa zamknięta prowadzona przez Martę Jakubowską, przeznaczona dla tancerzy 16+, z minimalnie 2-letnim doświadczeniem. 
 
 
 
 Projekt skierowany jest do osób, które chcą odkrywać swoją drogę i poznawać siebie i innych, pracować nad treningiem, muzykalnością, emocjami, otwartością.
 
 
-
+<br/><br/>
 Przez projekt Marta dzieli się swoim doświadczeniem tanecznym i muzycznym poprzez różne style taneczne, ćwiczenia, improwizację, zajęcia muzyczne, szukanie dźwięków na instrumentach, choreografię, emocje i rozmowę.
 
 Do projektu zapraszani są rownież inni instruktorzy, nauczyciele, osoby, które ją inspirują...
 
-Więcej info: mail: o.tworzsietanecznie@gmail.com oraz na Instagramie: @o_tworz_sie
+<br/><br/>Więcej info: o.tworzsietanecznie@gmail.com Instagram: @o_tworz_sie
 
 </p>
 
                 </div>
                 
             </div>
-            <div className="open-4"></div>
+            
             </div>
         )
     }
