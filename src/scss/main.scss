@@ -12,6 +12,7 @@
     @import "./dance.";
     @import "./shop";
     @import "./contact";
+    @import "./home";
 
     @import "~react-image-gallery/styles/scss/image-gallery.scss";
 
@@ -67,7 +68,7 @@
         background-size: cover;
         z-index: 0;
         // width: 1200px;
-  height: 1000px;
+  height: 800px;
   -webkit-filter: blur(5px);
   -moz-filter: blur(5px);
   -o-filter: blur(5px);
