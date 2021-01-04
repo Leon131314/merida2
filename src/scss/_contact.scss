@@ -6,11 +6,12 @@
     z-index: 9999;
     // background-color: #071021;
     background: linear-gradient(to bottom,  #177f68, #071021);
+    font-family: 'Open Sans', sans-serif;
 
     .contact-left {
         width: 30%;
         height: 40vh;
-        margin-top: 10vh;
+        margin-top: 15vh;
         color: #fff;
         text-align: center;
         display: flex;
@@ -33,6 +34,37 @@
 
     .contact-right {
         width: 30%;
+        z-index: 9999;
+        color: whitesmoke;
+        margin-top: 15vh;
+        
+
+        h3 {
+            margin-left: 100px;
+        }
+
+        form {
+            margin-top: 5vh;
+            margin-left: -20px;
+            width: 400px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .row1 {
+                display: flex;
+                justify-content: space-around;
+
+                .formUp {
+                    height: 30px;
+                    margin: 10px;
+                }
+            }
+            .formMessage {
+                height: 50px;
+                width: 330px
+            }
+
+        }
     }
 
     

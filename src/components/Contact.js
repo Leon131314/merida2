@@ -20,7 +20,29 @@ export default class Contact extends React.Component {
                     </div>
                     
                     <div className="contact-right">
+                         <h3>NAPISZ DO NAS!</h3>
+                             <form >
+                             <input type="hidden" name="contact_number" />
+                             <div className="row1">
+                                <label>
+                                    <p className="title">Imię:</p>
+                                    <input className="formUp" type="text" name="user_name" />
+                                </label>
 
+                                <label>
+                                    <p className="title">Nazwa produktu:</p>
+                                    <input className="formUp" type="text" name="id" />                           
+                                </label>
+                             </div>
+                             
+                            <label className="formBottom">
+                                <p className="title">Wiadomość:</p>
+                                <textarea className="formMessage" name="message"/>
+                                <br/>
+                            </label>
+                  
+
+                            </form>
                     </div>
             </div>
         )

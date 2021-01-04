@@ -6,14 +6,16 @@
   // text-shadow: 1px 1px 5px gray;
   position: fixed;
   height: 120px;
-  width: 60px;
+  width: 70px;
   padding: 10px;
   background-color: rgba(76, 95, 103, 0.3);
   z-index: 9999;
-  margin-left: 2vw;
+  margin-left: 1vw;
   margin-top: 20px;
   display: flex;
   flex-direction: column;
+  font-family: 'Krona One', sans-serif;
+  font-size: 14px;
 }
 @media (max-width: 780px) {
   .home-nav-list {
@@ -26,6 +28,7 @@
     z-index: 9999;
     margin-left: 80px;
     margin-top: -70px;
+    font-family: 'Krona One', sans-serif;
   }
 }
 .home-nav-list-link {
