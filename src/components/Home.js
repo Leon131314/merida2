@@ -45,31 +45,31 @@ class HomeNavigation extends React.Component {
                 <ul className="home-nav-list" id="home-menu">
                     <Link
                         activeClass="active"
-                        to="gallery"
-                        spy={true}
+                        to="home"
+                        spyh={true}
                         smooth={true}
                         offset={-70}
                         duration= {600}
                         className="home-nav-list-link"
-                    >Gallery</Link>
+                    > Start</Link>
                     <Link
                         activeClass="active"
-                        to="about-us"
+                        to="titleHome"
                         spy={true}
                         smooth={true}
-                        offset={-70}
+                        offset={820}
+                        duration= {600}
+                        className="home-nav-list-link"
+                    >Video</Link>
+                    <Link
+                        activeClass="active"
+                        to="About-Main"
+                        spy={true}
+                        smooth={true}
+                        offset={-100}
                         duration= {600}
                         className="home-nav-list-link"
                     >About</Link>
-                    <Link
-                        activeClass="active"
-                        to="contact"
-                        spy={true}
-                        smooth={true}
-                        offset={-70}
-                        duration= {600}
-                        className="home-nav-list-link"
-                    >Contact</Link>
                 </ul>
             </div>
         )
