@@ -22,8 +22,21 @@ export default class Home extends React.Component {
                         <h1>Merida</h1>
                         </div>
                         <h2>Marta Jakubowska</h2>
+
+                     
+                        
                     </div>
-                    
+                    <Link
+                        activeClass="active"
+                        to="titleHome"
+                        spy={true}
+                        smooth={true}
+                        offset={820}
+                        duration= {600}
+                        className="home-nav-list-link"
+                    ><div className="arrow">
+                            
+                    </div></Link>
 
 
                     <video controls autostart autoPlay src={Video} type="video/mp4" />
