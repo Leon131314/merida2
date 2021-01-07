@@ -40,6 +40,8 @@ export default class Contact extends React.Component {
                                 <textarea className="formMessage" name="message"/>
                                 <br/>
                             </label>
+
+                            <input className="sendButton" type="submit" value="Wyślij" />
                   
 
                             </form>
