@@ -31,6 +31,10 @@
         z-index: 9999;
         // background-color: #071021;
         background: linear-gradient(to bottom,  #177f68, #071021);
+        @media (max-width:450px){
+          width: 100vw;
+        }
+
     }
 
     .arrow {
@@ -53,7 +57,9 @@
         border-radius: 25%;
       }
       @media (max-width:450px){
-        margin-left: 10px;
+        margin-left: 38%;
+        margin-top: 58vh;
+        background-size: contain;
       }
     }
 
@@ -72,6 +78,18 @@
 
         text-shadow: grey;
 
+        @media (max-width:450px){
+          height: 100vh;
+          h1 {
+            font-size: 30px;
+          }
+
+          h2 {
+            font-size: 20px;
+          }
+       
+        }
+
 
         display: flex;
         flex-direction: column;
@@ -82,12 +100,19 @@
         h1, h2 {
             opacity: 0.7;
             text-shadow: 6px 6px 6px black;
+
+            
             
         }
     }
 
 
     .filterMain {
+
+      @media (max-width:450px){
+        width: 100vw;
+      }
+
         background-color: #071021;
         background-image: url('../assets/mer3.jpg');
 //          filter: blur(8px);
