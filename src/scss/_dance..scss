@@ -8,6 +8,22 @@
 }
 
 
+@media (max-width: 450px) {
+  .Dance {
+
+    height: 100vh;
+    iframe {
+      width: 95vw;
+      height: 30vh;
+      margin: 5px;
+    }
+  }
+  .row-1 {
+    width: 100vw;
+    
+  }
+}
+
 
 .Dance {
     height: 180vh;
@@ -29,6 +45,12 @@
     //     width: 50%;
     // }
 
+    @media (max-width: 450px) {
+      height: 100vh;
+      margin: 0;
+
+      }
+
 }
 
 
@@ -36,6 +58,7 @@
 body {
     // background-color: #474e5d;
     font-family: Helvetica, sans-serif;
+    
   }
   
   /* The actual timeline (the vertical ruler) */
@@ -44,6 +67,11 @@ body {
     width: 35%;
     margin-left: -20vw;
     // margin: 0 auto;
+    @media (max-width: 450px) {
+      width: 95vw;
+      font-size: 14px;
+      display: none;
+    }
   }
   
   /* The actual timeline (the vertical ruler) */
@@ -55,7 +83,10 @@ body {
     top: 0;
     bottom: 0;
     left: 50%;
-    margin-left: -3px;
+    margin-left: -30px;
+    @media (max-width: 450px) {
+      width: 2px;
+    }
   }
   
   /* Container around content */
@@ -64,6 +95,9 @@ body {
     position: relative;
     background-color: inherit;
     width: 48%;
+    @media (max-width: 450px) {
+      width: 30vw;
+    }
   }
 
   .container1 {
@@ -92,6 +126,10 @@ body {
     top: 185px;
     border-radius: 50%;
     z-index: 1;
+    @media (max-width: 450px) {
+      width: 20px;
+      height: 20px;
+    }
   }
 
   .container1::after {
