@@ -5,7 +5,7 @@ import GallerySlide from './SlideShow';
 export default class Shop extends React.Component {
     render() {
         return(
-            <div>
+            <div className="Shop1">
                       <div className="filterMain"> </div>   
 
 
