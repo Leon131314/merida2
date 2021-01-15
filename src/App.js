@@ -9,6 +9,7 @@ import Dance from './components/Dance';
 import Shop from './components/Shop';
 import Contact from './components/Contact';
 import Footer from "./components/Footer";
+import Button from "./components/MobileButton";
 
 function App() {
   return (
@@ -22,7 +23,7 @@ function App() {
               {/* <div className="logo"></div> */}
                   <div className="main-nav">
                       <Navigation /> 
-
+                      <Button/>
                      
                   </div>
                   <div className='main-nav-right'>
