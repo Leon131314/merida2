@@ -53,7 +53,11 @@ export default class Home extends React.Component {
 }
 
 class HomeNavigation extends React.Component {
-
+    changeClick(e){
+        const menu = document.querySelector('.main-nav-list');
+        menu.classList.remove('show');
+        window.scrollTo(0, 0)
+    }
     render() {
         return (
             <div>
