@@ -46,11 +46,17 @@
     .arrow {
       // margin-left: 22px;
       // margin-right: 5px;
+      margin: 0;
+      position: absolute;
+      top: 82%;
+      left: 50%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
       background-image: url("../assets/down-arrow-multimedia-option-svgrepo-com.svg");
       background-size: cover;
       opacity: 0.6;
-     margin-top: 65vh;
-     margin-left: 48%;
+    //  margin-top: 65vh;
+    //  margin-left: 48%;
       background-repeat: no-repeat;
       background-position: center;
       border: 1px solid transparent;
@@ -63,13 +69,14 @@
         border-radius: 25%;
       }
       @media (max-width:450px){
-        margin-left: 38%;
-        margin-top: 58vh;
+        // margin-left: 38%;
+        // margin-top: 58vh;
         background-size: contain;
       }
     }
 
     .titleHome {
+      position: relative;
         background-image: url('../assets/fb_zdj_w_tle_1.jpg');  
         width: 100%;
         height: 800px;
