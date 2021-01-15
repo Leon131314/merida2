@@ -1,7 +1,9 @@
 
 .footerBox {
     height: 15vh;
-    background: linear-gradient(to bottom,   #071021, #177f68);
+    // background: linear-gradient(to bottom,   #071021, #177f68);
+    background: darken( #071021, 20%);
+
     
     color: white;
     font-style: "Roboto Mono",monospace;

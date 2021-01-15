@@ -4,6 +4,7 @@ import { Link } from "react-scroll";
 import Navigation from './Navigation'
 import About from './About';
 import Video from "../assets/spot_promujący_album.mp4";
+import Animation from '../assets/merida_render.mp4';
 
 
 export default class Home extends React.Component {
@@ -18,6 +19,7 @@ export default class Home extends React.Component {
                    
 
                     <div className="titleHome">
+                    {/* <video controls autostart autoPlay src={Animation} type="video/mp4" /> */}
                     <div className="glow">
                         <h1>Merida</h1>
                         </div>

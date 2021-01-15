@@ -5,8 +5,12 @@
     flex-direction: column;
     z-index: 9999;
     // background-color: #071021;
-    background: linear-gradient(to bottom,  #177f68, #071021);
+    // background: linear-gradient(to bottom,  #177f68, #071021);
+    background: linear-gradient(to bottom, lighten( #071021, 10%), #071021);
+
 }
+
+
 
 .main-gallery-container {
     margin-top: 15vh;
