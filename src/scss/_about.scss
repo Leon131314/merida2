@@ -105,7 +105,7 @@
            margin: 0;
            font-size: 18px;
            padding: 0;
-           margin-right: -15vw;
+          //  margin-right: -15vw;
            text-align: right;
           }
     }
@@ -126,7 +126,7 @@
     .about-open {
         @media (max-width:450px){
             flex-direction: column-reverse;
-            width: 100vw;
+            width: 98vw;
             align-items: center;
             justify-content: center;
             margin: 0;
