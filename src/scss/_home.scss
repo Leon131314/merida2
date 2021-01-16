@@ -19,6 +19,7 @@
 }
 @media (max-width: 780px) {
   .home-nav-list {
+    display: none;
     // color: $color4;
     position: fixed;
     height: 20px;

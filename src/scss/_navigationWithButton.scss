@@ -173,7 +173,7 @@ border-radius: 10px;
 }
 
 .soundcloud {
-  margin-left: 22px;
+  margin-left: 23px;
   margin-right: 22px;
   background-image: url("../assets/soundcloud-icon.svg");
   background-size: contain;
@@ -189,6 +189,10 @@ border-radius: 10px;
     border: 3px solid #fff;
     border-radius: 25%;
   }
+  @media (max-width:450px){
+    margin-left: 11%;
+  }
+
 }
 .page-header {
 
