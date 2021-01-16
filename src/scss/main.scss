@@ -39,6 +39,7 @@
         background: linear-gradient(to bottom, lighten( #071021, 10%), #071021);
         @media (max-width:450px){
           width: 100vw;
+          height: 900vh;
         }
 
     }
@@ -72,10 +73,14 @@
         // margin-left: 38%;
         // margin-top: 58vh;
         background-size: contain;
+        display: none;
       }
     }
 
     .titleHome {
+      @media (max-width:450px){
+        height: 100vh;
+      }
       position: relative;
         background-image: url('../assets/fb_zdj_w_tle_1.jpg');  
         width: 100%;
@@ -92,10 +97,11 @@
         text-shadow: grey;
 
         @media (max-width:450px){
-          background-position: 54% 0%;
-          height: 100vh;
+          background-position: 54% 40%;
+          height: 60vh;
           h1 {
             font-size: 60px;
+            padding-top: 50px;
           }
 
           h2 {
@@ -156,6 +162,11 @@
         height: 900px;
         width: 100%;
         // margin-top: 600px;
+
+        @media (max-width:450px){
+          height: 47vh;
+          margin-top: 37vh;
+        }
     }
       
 

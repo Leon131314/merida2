@@ -72,13 +72,21 @@
       height: 80%;
       // background: $color3; //darken($color, 10);
       flex-direction: column;
+      justify-content: space-around;
       // opacity: 0.93;
     }
     .main-nav-list.show {
+        width: 20vw;
+        height: 30vh;
       	transform: translate(100%);
       transform: translate(320px, 80px);
+        font-size: 28px;
+        padding-left: 20px;
+        padding-bottom: 2%;
+        text-transform: uppercase;
+        background: linear-gradient(to bottom, lighten( #071021, 10%), #071021);
       .container {
-        margin: 0 30px;
+        // margin: 0 10px;
 
         .row {
           display: flex;
