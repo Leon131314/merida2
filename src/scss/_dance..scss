@@ -2,8 +2,7 @@
     display: flex;
     justify-content: center;
     width: 100%;
-    background: linear-gradient(to bottom,  #177f68, #071021);
-    
+    background: linear-gradient(to bottom, lighten( #071021, 10%), #071021);    
 
 }
 
@@ -37,8 +36,7 @@
     margin-left: -80px;
     margin-right: 80px;
     // background-color: #071021;
-    background: linear-gradient(to bottom,  #177f68, #071021);
-
+    background: linear-gradient(to bottom, lighten( #071021, 10%), #071021);
     // .row-1 {
     //     display: flex;
     //     justify-content: center;
