@@ -36,7 +36,8 @@
         flex-direction: column;
         z-index: 9999;
         // background-color: #071021;
-        background: linear-gradient(to bottom, lighten( #071021, 10%), #071021);
+        // background: linear-gradient(to bottom, lighten( #071021, 10%), #071021);
+        background: #fff;
         @media (max-width:450px){
           width: 100vw;
           height: 530vh;
@@ -134,8 +135,8 @@
         width: 100vw;
       }
 
-        background-color: #071021;
-        background-image: url('../assets/mer3.jpg');
+        // background-color: #071021;
+        // background-image: url('../assets/mer3.jpg');
 //          filter: blur(8px);
 //   -webkit-filter: blur(8px);
        //  background-blend-mode: screen;
