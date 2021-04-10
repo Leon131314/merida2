@@ -5,8 +5,9 @@
     justify-content: space-around;
     z-index: 9999;
     // background-color: #071021;
-    background: linear-gradient(to bottom, lighten( #071021, 10%), #071021);    font-family: 'Open Sans', sans-serif;
+    // background: linear-gradient(to bottom, lighten( #071021, 10%), #071021);    font-family: 'Open Sans', sans-serif;
     position: relative;
+    background: white;
 
     @media (max-width: 450px) {
         flex-direction: column;
@@ -51,7 +52,8 @@
     .contact-right {
         width: 30%;
         z-index: 9999;
-        color: whitesmoke;
+        // color: rgb(121, 86, 86);
+        color: black;
         margin-top: 15vh;
         @media (max-width: 450px) {
             height: 60vh;
@@ -102,8 +104,8 @@
                     border-left: none;
                     border-right: none;
                     background: none;
-                    border-bottom: solid 1px white;
-                    color: white;
+                    border-bottom: solid 1px black;
+                    color: black;
                     font-size: 16px;
                     margin-bottom: 10px;
 
@@ -122,8 +124,8 @@
                 border-left: none;
                 border-right: none;
                 background: none;
-                border-bottom: solid 1px white; 
-                color: white;    
+                border-bottom: solid 1px black; 
+                color: black;    
             font-size: 16px;     
             @media (max-width: 450px) {
                 width: 85vw;
@@ -189,6 +191,7 @@
     .sendButton:hover{
     //   color: $color3;
       cursor: pointer;
-      background-color: #CCFBFF
+      background-color: #CCFBFF;
+      border-radius: 4px;
     }
 
