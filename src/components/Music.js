@@ -11,13 +11,15 @@ export default class Music extends React.Component {
             <div className="music-main">
             <div className="Music">
                     {/* <VideoDance/> */}
-
+                    <row-3> <iframe width="900" height="500" src="https://www.youtube.com/embed/HJw7zD_9RWg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  </row-3>
+                   <row-3> <iframe width="900" height="500" src="https://www.youtube.com/embed/t0hsicfoAHA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </row-3>
+                   <row-3><iframe width="900" height="500" src="https://www.youtube.com/embed/WI6GrFXOYDU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </row-3>
                     <row-1>
 
                   
                                       </row-1>
-                    <iframe width="760" height="415" src="https://www.youtube.com/embed/lCoBdO8wFBM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
-                    <row-3> <iframe width="760" height="415" src="https://www.youtube.com/embed/Io4n1xt40dA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+                    <iframe width="900" height="500" src="https://www.youtube.com/embed/lCoBdO8wFBM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+                    <row-3> <iframe width="900" height="500" src="https://www.youtube.com/embed/Io4n1xt40dA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
                                        </row-3>
                     {/* <row-2>
                     <iframe width="760" height="415" src="https://www.youtube.com/embed/Pxfu5NckC0k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -28,12 +30,12 @@ export default class Music extends React.Component {
 
             </div>
 
-            <div class="timeline">
+            {/* <div class="timeline">
             <div class="container1 right1">
             <div class="content">
                 <h2>Mar 2020</h2>
                 <p>Szychowski feat Merida - MIŁOŚĆ
-</p>
+                </p>
             </div>
             </div>
             <div class="container2 right2">
@@ -42,15 +44,15 @@ export default class Music extends React.Component {
                 <p>Merida Jacobs - Heritage
 </p>
             </div>
-            </div>
-            {/* <div class="container right">
+            </div> */}
+            {/* <div class="container rig ht">
             <div class="content">
                 <h2>Apr 2019</h2>
                 <p>MASTERS CHOREO</p>
             </div>
             </div> */}
             </div>
-            </div>
+            // </div>
         )
     }
 }

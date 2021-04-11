@@ -7,18 +7,22 @@ export default class Dance extends React.Component {
             <div className="dance-main">
             <div className="Dance">
                     {/* <VideoDance/> */}
-
+                    <row-1><iframe width="900" height="500" src="https://www.youtube.com/embed/heDM62rDLNQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </row-1>
+                    <row-1><iframe width="900" height="500" src="https://www.youtube.com/embed/Q3cT-sGJY2A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></row-1>
+                    <row-1><iframe width="900" height="500" src="https://www.youtube.com/embed/2iPAslVVJcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></row-1>
+                    <row-1> <iframe width="900" height="500" src="https://www.youtube.com/embed/EOG0SmVqMbk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  </row-1>
+                    <row-1> <iframe width="900" height="500" src="https://www.youtube.com/embed/m8CVrTd_doE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </row-1>
+                    
                     <row-1>
-
-                  
-                    <iframe width="760" height="415" src="https://www.youtube.com/embed/VRHWv1UgwxQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    
+                    <iframe width="900" height="500" src="https://www.youtube.com/embed/VRHWv1UgwxQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </row-1>
 
                     <row-3>
-                    <iframe width="760" height="415" src="https://www.youtube.com/embed/39IXXNnFoC0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="900" height="500" src="https://www.youtube.com/embed/39IXXNnFoC0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </row-3>
                     <row-2>
-                    <iframe width="760" height="415" src="https://www.youtube.com/embed/Pxfu5NckC0k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="900" height="500" src="https://www.youtube.com/embed/Pxfu5NckC0k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
                     </row-2>
                    
@@ -26,7 +30,7 @@ export default class Dance extends React.Component {
 
             </div>
 
-            <div class="timeline">
+            {/* <div class="timeline">
             <div class="container1 right1">
             <div class="content">
                 <h2>Apr 2020</h2>
@@ -45,7 +49,7 @@ export default class Dance extends React.Component {
                 <p>MASTERS CHOREO</p>
             </div>
             </div>
-            </div>
+            </div> */}
             </div>
 
 
