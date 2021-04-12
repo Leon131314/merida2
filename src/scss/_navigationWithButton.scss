@@ -122,10 +122,12 @@
     justify-content: flex-start;
     order: -1;
     margin-top: 5px;
+    margin-left: -55%;
+
   }
   @media (max-width: 510px){
     justify-content: center;
-    margin-left: -40%;
+    margin-left: -55%;
     max-width: 100%;
   }
   
@@ -181,6 +183,31 @@ border-radius: 10px;
   &:hover{
     border: 3px solid #fff;
     border-radius: 25%;
+  }
+}
+
+
+.spotify {
+  margin-left: 22px;
+  margin-right: 5px;
+  background-image: url("../assets/spotify.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 1px solid transparent;
+border-radius: 10px;
+  // background-color: lighten( #177f68, 15%);
+  background-color: #fff;
+
+  width: 34px;
+  height: 34px;
+  &:hover{
+    border: 3px solid #fff;
+    border-radius: 25%;
+  }
+
+  @media (max-width:450px){
+    margin-left: 10px;
   }
 }
 
