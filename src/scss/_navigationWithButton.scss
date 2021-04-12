@@ -122,10 +122,12 @@
     justify-content: flex-start;
     order: -1;
     margin-top: 5px;
+    margin-left: -55%;
+
   }
   @media (max-width: 510px){
     justify-content: center;
-    margin-left: -40%;
+    margin-left: -55%;
     max-width: 100%;
   }
   
@@ -184,6 +186,31 @@ border-radius: 10px;
   }
 }
 
+
+.spotify {
+  margin-left: 22px;
+  margin-right: 5px;
+  background-image: url("../assets/spotify.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 1px solid transparent;
+border-radius: 10px;
+  // background-color: lighten( #177f68, 15%);
+  background-color: #fff;
+
+  width: 34px;
+  height: 34px;
+  &:hover{
+    border: 3px solid #fff;
+    border-radius: 25%;
+  }
+
+  @media (max-width:450px){
+    margin-left: 10px;
+  }
+}
+
 .soundcloud {
   margin-left: 23px;
   margin-right: 22px;
@@ -224,9 +251,9 @@ border-radius: 10px;
 // background: linear-gradient(to bottom,  #177f68, #071021);
 // background: linear-gradient(to bottom, lighten( #071021, 10%), #071021);
 // background: linear-gradient(to bottom, #071021, #177f68);
-background-color:darken( rgba(76, 95, 103, 0.6),30%);
+background-color: black;
 
-opacity: 0.9;
+opacity: 0.8;
   padding: 10px;
   display: flex;
   justify-content: space-between;

@@ -1,18 +1,32 @@
 .Shop {
-    height: 100vh;
-    width: 100%;
     display: flex;
     flex-direction: column;
-    z-index: 9999;
+    height: 120vh;
+    align-items: space-around;
+    justify-content: space-around;
+    // z-index: 9999;
     // background-color: #071021;
     // background: linear-gradient(to bottom,  #177f68, #071021);
-    background: linear-gradient(to bottom, lighten( #071021, 10%), #071021);
+    // background: linear-gradient(to bottom, lighten( #071021, 10%), #071021);
+    
+    .shopInfo {
+        text-align: center;
+    }
+
+    @media (max-width: 450px) {
+        height: 80vh;
+    }
+
+   
 
 }
+
 
 
 
 .main-gallery-container {
-    margin-top: 15vh;
+    // width: 95vw;
+    // height: 100vh;
 }
+
 

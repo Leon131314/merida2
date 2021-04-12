@@ -35,6 +35,10 @@ function App() {
                       <a href="https://www.facebook.com/Merida-Jacobs-101933648232815" target='_blank' rel="noopener noreferrer">
                           <div className="facebook" />
                       </a>
+
+                      <a href="https://open.spotify.com/artist/5zXlpYUiLSwXB7IofPoutg?si=uRpx4i2yQNySIuf2P5ZZUQ&nd=1" target='_blank' rel="noopener noreferrer">
+                          <div className="spotify"/>
+                      </a>
                      
                       <a href="https://soundcloud.com/tolekbeatz/merida-jacobs-tolekbeatz?ref=clipboard&p=i&c=0" target='_blank' rel="noopener noreferrer">
                           <div className="soundcloud"/>

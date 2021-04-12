@@ -22,13 +22,7 @@
 
     @import "~react-image-gallery/styles/scss/image-gallery.scss";
 
-    .main-gallery-container {
-        position:absolute;
-        top:0px;
-        height: 100vh;
-        width: 100vw;
-       
-    }
+ 
 
     .home {
         // z-index: 9999;
@@ -40,7 +34,7 @@
         background: #fff;
         @media (max-width:450px){
           width: 100vw;
-          height: 530vh;
+          height: 550vh;
         }
 
     }
