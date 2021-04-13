@@ -7,11 +7,6 @@ export default class Dance extends React.Component {
             <div className="dance-main">
             <div className="Dance">
                     {/* <VideoDance/> */}
-                    <row-1><iframe width="900" height="500" src="https://www.youtube.com/embed/heDM62rDLNQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </row-1>
-                    <row-1><iframe width="900" height="500" src="https://www.youtube.com/embed/Q3cT-sGJY2A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></row-1>
-                    <row-1><iframe width="900" height="500" src="https://www.youtube.com/embed/2iPAslVVJcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></row-1>
-                    <row-1> <iframe width="900" height="500" src="https://www.youtube.com/embed/EOG0SmVqMbk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  </row-1>
-                    <row-1> <iframe width="900" height="500" src="https://www.youtube.com/embed/m8CVrTd_doE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </row-1>
                     
                     <row-1>
                     
@@ -25,6 +20,13 @@ export default class Dance extends React.Component {
                     <iframe width="900" height="500" src="https://www.youtube.com/embed/Pxfu5NckC0k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
                     </row-2>
+
+                    <row-1><iframe width="900" height="500" src="https://www.youtube.com/embed/heDM62rDLNQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </row-1>
+                    <row-1><iframe width="900" height="500" src="https://www.youtube.com/embed/Q3cT-sGJY2A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></row-1>
+                    <row-1><iframe width="900" height="500" src="https://www.youtube.com/embed/2iPAslVVJcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></row-1>
+                    <row-1> <iframe width="900" height="500" src="https://www.youtube.com/embed/EOG0SmVqMbk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  </row-1>
+                    <row-1> <iframe width="900" height="500" src="https://www.youtube.com/embed/m8CVrTd_doE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </row-1>
+                    
                    
                    
 

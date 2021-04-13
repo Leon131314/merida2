@@ -11,10 +11,13 @@
     
     .shopInfo {
         text-align: center;
+        opacity: 0.6;
     }
 
     @media (max-width: 450px) {
         height: 80vh;
+        font-size: 11px;
+
     }
 
    
