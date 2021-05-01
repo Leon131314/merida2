@@ -63,7 +63,7 @@
         
 
         .img-1 {
-            background-image: url('../assets/mer1.jpg');
+            background-image: url('../assets/merida_front_1.jpg');
             background-size: cover;
             background-position: center;        
             width: 450px;
@@ -95,7 +95,7 @@
           }
 
     .img-2 {
-        background-image: url('../assets/B454865E-57C6-402D-8A0A-B13051797F07.JPG');
+        background-image: url('../assets/merida_front_2.jpg');
         background-size: cover;
         background-position: center;        
         width: 450px;
@@ -227,7 +227,7 @@
                     background-position: center;
 
                     @media (max-width:450px){
-                        display: none
+                        // display: none
                       }
                 }
                 .open-2 {
@@ -238,7 +238,7 @@
                     background-position: center;
 
                     @media (max-width:450px){
-                        display: none
+                        // display: none
                       }
                 }
                 .open-3 {
