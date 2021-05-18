@@ -33,8 +33,10 @@
         // background: linear-gradient(to bottom, lighten( #071021, 10%), #071021);
         background: #fff;
         @media (max-width:450px){
-          width: 100vw;
-          height: 550vh;
+          // width: 100vw;
+          width: calc(100vw - (100vw - 100%));
+
+          // height: 520vh;
         }
 
     }
@@ -78,8 +80,9 @@
       }
       position: relative;
         background-image: url('../assets/fb_zdj_w_tle_1.jpg');  
-        width: 100%;
-        height: 800px;
+        // width: 100%;
+        width: calc(100vw - (100vw - 100%));
+        // height: 800px;
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-position: center;
@@ -123,10 +126,11 @@
 
 
     .filterMain {
-      width: 95vw;
+      // width: 95vw;
+      width: calc(100vw - (100vw - 100%));
 
       @media (max-width:450px){
-        width: 100vw;
+        // width: 100vw;
       }
 
         // background-color: #071021;
@@ -140,7 +144,7 @@
         background-size: cover;
         z-index: 0;
         // width: 1200px;
-  height: 800px;
+  // height: 800px;
   -webkit-filter: blur(5px);
   -moz-filter: blur(5px);
   -o-filter: blur(5px);
