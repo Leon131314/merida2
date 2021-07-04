@@ -107,6 +107,7 @@
     flex-direction: column;
     margin-top: 1%;
     width: 30%;
+    max-width: 40%;
   }
   @media (max-width: 1089px){
     width: 30%;
@@ -127,7 +128,7 @@
   }
   @media (max-width: 510px){
     justify-content: center;
-    margin-left: -55%;
+    margin-left: -68%;
     max-width: 100%;
   }
   
@@ -213,7 +214,7 @@ border-radius: 10px;
 
 .soundcloud {
   margin-left: 23px;
-  margin-right: 22px;
+  // margin-right: 2px;
   background-image: url("../assets/soundcloud-icon.svg");
   background-size: contain;
   background-repeat: no-repeat;
