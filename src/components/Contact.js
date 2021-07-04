@@ -1,9 +1,27 @@
 import React from 'react';
+import emailjs from 'emailjs-com';
+import{ init } from 'emailjs-com';
+init("user_YCtnKMQdIqpB506jCVedg");
 
 
-export default class Contact extends React.Component {
-    render() {
-        return(
+
+export default function Contact() {
+
+    function sendEmail(e) {
+      e.preventDefault();
+  
+      emailjs.sendForm('service_b5km7fq', 'template_2pd9bq7', e.target, 'user_YCtnKMQdIqpB506jCVedg')
+        .then((result) => {
+            console.log(result.text);
+            alert('Formularz został wysłany, dziękujemy!');
+        }, (error) => {
+            console.log(error.text);
+        });
+    }
+  
+    return (
+
+
             <div className="Contact">
                  <div className="filterContact"> </div>   
                     <div className="contact-left">
@@ -21,11 +39,11 @@ export default class Contact extends React.Component {
                     
                     <div className="contact-right">
                          <h3>NAPISZ DO NAS!</h3>
-                             <form >
+                             <form onSubmit={sendEmail}>
                              <input type="hidden" name="contact_number" />
                              <div className="row1">
                                 <label>
-                                    <p className="title">Imię:</p>
+                                    <p className="title">Mail:</p>
                                     <input className="formUp" type="text" name="user_name" />
                                 </label>
 
@@ -42,6 +60,8 @@ export default class Contact extends React.Component {
                             </label>
 
                             <input className="sendButton" type="submit" value="Wyślij" />
+                            <div class="g-recaptcha" data-sitekey="6LeMag8aAAAAADla6raFq_UJaJhE14wstPt3fokM"></div>
+
                   
 
                             </form>
@@ -49,4 +69,3 @@ export default class Contact extends React.Component {
             </div>
         )
     }
-}

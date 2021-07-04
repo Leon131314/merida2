@@ -1,11 +1,19 @@
 
+
+
+.HomeTest {
+  width: calc(100vw - (100vw - 100%));
+
+}
+
+
 .home-nav-list {
   border-radius: 12px;
   // color: $color4;
   // color:darken( #fff, 20%);
   // text-shadow: 1px 1px 5px gray;
   position: fixed;
-  // height: 120px;
+  height: 120px;
   width: 70px;
   padding: 10px;
   background-color: rgba(76, 95, 103, 0.3);
@@ -22,7 +30,7 @@
     display: none;
     // color: $color4;
     position: fixed;
-    // height: 20px;
+    height: 20px;
     width: 210px;
     padding: 10px;
     background-color: rgba(76, 95, 103, 0);
